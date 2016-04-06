@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-MAINTAINER ZOL <hello@zol.fr>
+MAINTAINER Brad Jones <brad@bradjonesllc.com>
 
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -q -y \
